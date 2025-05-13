@@ -24,10 +24,6 @@ int main(){            // bloco de execução principal
 	- *short* → menos memória;
 	- *long* → mais memória;
 
-<p align="center"><b>Tabela de tipos primitivos e modificadores</b></p>
-
-<p align="center">
-
 | Tipo | Bits | Intervalo de valores |
 |:---:|:---:|:---:|
 | char | 8 | -128 A 127 |
@@ -44,7 +40,6 @@ int main(){            // bloco de execução principal
 | double | 64 | 2,225074E-308 A 1,797693E+308 |
 | long double | 96 | 3,4E-4932 A 3,4E+4932 |
 
-</p>
 
 ``` 
 // Leitura e impressão de variáveis dos tipos básicos
@@ -70,36 +65,28 @@ scanf("%c", &c);                       // Lendo o caractere c
 printf("%c\n", c);                     // Escrevendo c
 ```
 
-- Operadores relacionais compara variáveis de qualquer tipo; operadores lógicos comparam valores booleanos entre variáveis; ambos os tipos retornam 0 ou 1 (False e True, respectivamente).
-- Operadores aritméticos e bit a bit retornam valores numéricos.
-<p align="center"><b>Tabela dos Operadores Relacionais, Lógicos, Bit a Bit e Aritméticos</b></p>
-
-<p align="center">
-
-| **Operador**   ||| **Símbolo** ||| **Tipo** |
-| :------: | :------: | :------: | :------: | :------: | :-------: | :------: |
-| Igual ||| `==` ||| Relacional |
-| Diferente |||`!=`||| Relacional |
-| Menor ||| `<` ||| Relacional |
-| Maior ||| `>` ||| Relacional |
-| Menor igual ||| `<=`||| Relacional |
-| Maior igual |||`>=`||| Relacional |
-| And ||| ` && ` ||| Lógico |
-| Or ||| ` \|\| ` ||| Lógico |
-| Not ||| ` ! ` ||| Lógico |
-| Adição ||| ` + ` ||| Aritmético |
-| Subtração ||| ` - ` ||| Aritmético |
-| Multiplicação ||| ` * ` ||| Aritmético |
-| Divisão ||| ` / ` ||| Aritmético |
-| Resto ||| ` % ` ||| Aritmético |
-| And ||| ` & ` ||| bit a bit |
-| Or ||| ` \| ` ||| bit a bit |
-| Complemento ||| ` ~ ` ||| bit a bit |
-| Xor ||| ` ^ ` ||| bit a bit |
-| Recua bit ||| ` >> ` ||| bit a bit |
-| Avança bit ||| ` << ` ||| bit a bit |
-
-</p>
+| **Operador**   | **Símbolo** | **Tipo** |
+| :------: | :------: | :------: |
+| Igual | `==` | Relacional |
+| Diferente |`!=`| Relacional |
+| Menor | `<` | Relacional |
+| Maior | `>` | Relacional |
+| Menor igual | `<=`| Relacional |
+| Maior igual |`>=`| Relacional |
+| And | ` && ` | Lógico |
+| Or | ` \|\| ` | Lógico |
+| Not | ` ! ` | Lógico |
+| Adição | ` + ` | Aritmético |
+| Subtração | ` - ` | Aritmético |
+| Multiplicação | ` * ` | Aritmético |
+| Divisão | ` / ` | Aritmético |
+| Resto | ` % ` | Aritmético |
+| And | ` & ` | bit a bit |
+| Or | ` \| ` | bit a bit |
+| Complemento | ` ~ ` | bit a bit |
+| Xor | ` ^ ` | bit a bit |
+| Recua bit | ` >> ` | bit a bit |
+| Avança bit | ` << ` | bit a bit |
 
 - Constantes são valores declarados no início do código e que não podem ser alterados enquanto execução do programa, apenas podendo ser utilizados.
 
@@ -686,9 +673,6 @@ int main(){
 - Quando há algum erro na operação do *fopen*, a função retorna **NULL** ao ponteiro.
 
 - Após o uso do arquivo, deve-se fechá-lo com o uso da função *fclose(ponteiro)*
-<center>
-
-<p>
 
 |*Modo*|*Tipo de Arquivo*|*Função*|
 |:---:|:---:|:---|
@@ -704,10 +688,6 @@ int main(){
 |"r+b"|binário|leitura/escrita em arquivo existente|
 |"w+b"|binário|leitura/escrita em arquivo existente ou não|
 |"a+b"|binário|leitura/escrita no final|
-
-</p>
-
-</center>
 
 ```
 #include <stdio.h>
@@ -928,8 +908,3 @@ int main() {
 
 // Saída: Tipo do erro: No such file or directory
 ```
-
-
-
-
-
