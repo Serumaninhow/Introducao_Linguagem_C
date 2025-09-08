@@ -2,7 +2,7 @@
 
 ## 1 - Introdução e Forma do Código
 
-```
+```C
 #include <stdio.h>     // importando a biblioteca stdio.h
 #include <stdlib.h>    // importando a biblioteca stdlib.h
 int main(){            // bloco de execução principal
